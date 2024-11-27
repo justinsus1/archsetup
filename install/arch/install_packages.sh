@@ -31,6 +31,8 @@ installer_packages=(
     "brightnessctl"
     "jdk-openjdk"
     "pavucontrol"
+    "grim"
+    "slurp"
 )
 
 installer_yay=(
