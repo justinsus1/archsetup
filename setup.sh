@@ -193,8 +193,8 @@ fi
 cd ~/Downloads
 
 # Remove existing folder
-if [ -d ~/Downloads/hyprland-starter ] ;then
-    rm -rf ~/Downloads/hyprland-starter
+if [ -d ~/Downloads/archinstall ] ;then
+    rm -rf ~/Downloads/archinstall
     echo ":: Existing installation folder removed"
 fi
 
