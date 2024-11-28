@@ -27,7 +27,7 @@ You can install the Hyprland Starter on real hardware (bare metal) or test it fi
 Just copy the following command into your terminal and execute.
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/justinsus1/archinstall/master/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/justinsus1/archsetup/master/setup.sh)
 ```
 
 > Hyprland does not officially support NVIDIA hardware. But many users have reported a successful installation. Please read: https://wiki.hyprland.org/Nvidia/
