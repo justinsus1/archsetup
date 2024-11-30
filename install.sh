@@ -20,6 +20,13 @@ systemctl enable systemd-timesyncd.service --now
 timedatectl set-ntp true
 timedatectl set-timezone Australia/Sydney
 
+
+# -----------------------------------------------------
+# Pacman Conf
+# -----------------------------------------------------
+
+source install/pacman/config.sh
+
 # ----------------------------------------------------- 
 # Library
 # ----------------------------------------------------- 

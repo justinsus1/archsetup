@@ -50,6 +50,7 @@ installer_yay=(
     "wlogout" 
     "minecraft-launcher"
     "zen-browser"
+    "zoom"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
