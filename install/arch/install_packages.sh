@@ -47,6 +47,8 @@ installer_packages=(
     "gamemode"
     "mamgohud"
     "wine-staging"
+    "vulkan-intel"
+    "lib32-vulkan-intel"
 )
 
 installer_yay=(
@@ -60,3 +62,9 @@ installer_yay=(
 # PLEASE NOTE: Add more packages at the end of the following command
 _installPackages "${installer_packages[@]}";
 _installPackagesYay "${installer_yay[@]}";
+
+installer_packages=(
+    "steam"
+)
+
+_installPackages "${installer_packages[@]}";

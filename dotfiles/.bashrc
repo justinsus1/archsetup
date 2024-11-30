@@ -35,3 +35,8 @@ alias audio='pavucontrol'
 alias mc='minecraft-launcher'
 alias surfshark='sudo openvpn ~/surfshark/au-syd.prod.surfshark.comsurfshark_openvpn_udp.ovpn'
 alias fuck='brightnessctl set 1%'
+
+# steam shit
+
+export MANGOHUD=1
+export GAMEMODERUN=1
