@@ -13,6 +13,14 @@
 version=$(cat install/version)
 
 # ----------------------------------------------------- 
+# Sync time
+# ----------------------------------------------------- 
+
+systemctl enable systemd-timesyncd.service --now
+timedatectl set-ntp true
+timedatectl set-timezone Australia/Sydney
+
+# ----------------------------------------------------- 
 # Library
 # ----------------------------------------------------- 
 source install/includes/library.sh
