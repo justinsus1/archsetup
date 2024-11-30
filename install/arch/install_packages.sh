@@ -45,7 +45,7 @@ installer_packages=(
     "fzf"
     "mpv"
     "gamemode"
-    "mamgohud"
+    "mangohud"
     "wine-staging"
     "vulkan-intel"
     "lib32-vulkan-intel"
