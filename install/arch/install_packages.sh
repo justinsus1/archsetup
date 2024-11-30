@@ -33,6 +33,15 @@ installer_packages=(
     "pavucontrol"
     "grim"
     "slurp"
+    "noto-fonts-cjk"
+    "wqy-zenhei"
+    "wqy-microhei"
+    "fcitx5"
+    "fcitx5-configtool"
+    "fcitx5-chinese-addons"
+    "fcitx5-gtk"
+    "fcitx5-qt"
+
 )
 
 installer_yay=(
