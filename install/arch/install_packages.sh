@@ -49,6 +49,7 @@ installer_packages=(
     "wine-staging"
     "vulkan-intel"
     "lib32-vulkan-intel"
+    "openssh"
 )
 
 installer_yay=(
