@@ -199,11 +199,11 @@ if [ -d ~/Downloads/archinstall ] ;then
 fi
 
 # Clone the packages
-git clone --depth 1 https://github.com/justinsus1/archinstall.git
+git clone --depth 1 https://github.com/justinsus1/archsetup.git
 echo ":: Installation files cloned into Downloads folder"
 
 # Change into the folder
-cd archinstall
+cd archsetup
 
 # Start the script
 ./install.sh
