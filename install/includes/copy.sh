@@ -17,3 +17,5 @@ done
 
 rsync -avhp -I ~/ml4w/$version/ ~/
 echo ":: Dotfiles installed in ~/.config/"
+
+sudo rsync -avhp ~/Downloads/archsetup/etc/fonts/ /etc/

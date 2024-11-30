@@ -65,3 +65,10 @@ _installYay() {
     fi
 }
 
+_installAni() {
+    echo "installing ani-cli"
+    git clone "https://github.com/pystardust/ani-cli.git"
+    sudo cp ani-cli/ani-cli /usr/local/bin
+    rm -rf ani-cli
+    echo "ani-cli has been successfully installed"
+}

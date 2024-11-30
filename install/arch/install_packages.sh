@@ -41,7 +41,9 @@ installer_packages=(
     "fcitx5-chinese-addons"
     "fcitx5-gtk"
     "fcitx5-qt"
-
+    "vscode"
+    "fzf"
+    "mpv"
 )
 
 installer_yay=(

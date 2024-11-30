@@ -32,3 +32,4 @@ echo
 
 # Install Yay
 _installYay
+_installAni

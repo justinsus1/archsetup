@@ -1,0 +1,33 @@
+2024-11-28 21:58:24.552 [info] [main] Log level: Info
+2024-11-28 21:58:24.552 [info] [main] Validating found git in: "git"
+2024-11-28 21:58:24.552 [info] [main] Using git "2.47.1" from "git"
+2024-11-28 21:58:24.552 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-28 21:58:24.552 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-28 21:58:24.552 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-28 21:58:24.552 [info] [Model][openRepository] Opened repository: /home/justin_sus1/ttrockstars
+2024-11-28 21:58:24.552 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-28 21:58:24.553 [info] > git config --get commit.template [2ms]
+2024-11-28 21:58:24.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-28 21:58:24.577 [info] > git status -z -uall [11ms]
+2024-11-28 21:58:24.578 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-28 21:58:24.594 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-28 21:58:24.599 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-11-28 21:58:24.599 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-28 21:58:24.603 [info] > git config --get commit.template [10ms]
+2024-11-28 21:58:24.605 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-11-28 21:58:24.613 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-11-28 21:58:24.613 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-28 21:58:24.613 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-28 21:58:24.624 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-11-28 21:58:24.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-11-28 21:58:24.635 [info] > git status -z -uall [3ms]
+2024-11-28 21:58:24.635 [info] > git diff --name-status -z --diff-filter=ADMR 97c6bd3126ab3dc06a5958c8632a3abba24d15e4...refs/remotes/origin/main [7ms]
+2024-11-28 21:58:24.657 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2024-11-28 21:58:24.878 [info] > git show --textconv :_main_.py [7ms]
+2024-11-28 21:58:24.879 [info] > git ls-files --stage -- /home/justin_sus1/ttrockstars/_main_.py [1ms]
+2024-11-28 21:58:24.886 [info] > git cat-file -s 49bb5d3987efc989480b014f02816260dfbf3281 [2ms]
+2024-11-28 21:58:25.101 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-28 22:00:16.330 [info] > git config --get commit.template [7ms]
+2024-11-28 22:00:16.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-28 22:00:16.341 [info] > git status -z -uall [6ms]
+2024-11-28 22:00:16.342 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
