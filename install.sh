@@ -107,3 +107,5 @@ source install/includes/copy.sh
 # Reboot
 # ----------------------------------------------------- 
 source install/includes/reboot.sh
+
+#test fuck
