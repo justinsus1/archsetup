@@ -44,6 +44,9 @@ installer_packages=(
     "vscode"
     "fzf"
     "mpv"
+    "gamemode"
+    "mamgohud"
+    "wine-staging"
 )
 
 installer_yay=(
@@ -51,6 +54,7 @@ installer_yay=(
     "minecraft-launcher"
     "zen-browser"
     "zoom"
+    "goverlay"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
