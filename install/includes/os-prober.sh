@@ -9,5 +9,5 @@ installer_packages=(
 _installPackages "${installer_packages[@]}";
 
 
-echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub/
+echo "GRUB_DISABLE_OS_PROBER=false" | sudo tee -a /etc/default/grub/
 grub-mkconfig -o /boot/grub/grub.cfg
