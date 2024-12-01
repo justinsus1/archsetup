@@ -25,7 +25,7 @@ timedatectl set-timezone Australia/Sydney
 # Pacman Conf
 # -----------------------------------------------------
 
-source install/pacman/config.sh
+# source install/pacman/config.sh
 
 # ----------------------------------------------------- 
 # Library
