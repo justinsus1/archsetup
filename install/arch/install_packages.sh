@@ -53,6 +53,7 @@ installer_packages=(
     "cpupower"
     "libva-intel-driver"
     "intel-media-driver"
+    "tpl"
 )
 
 installer_yay=(

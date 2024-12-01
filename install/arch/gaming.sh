@@ -14,3 +14,6 @@ cpupower frequency-info | grep "The governor"
 echo "Service started and CPU set to performance mode."
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+sudo systemctl enable tlp
+sudo systemctl enable fstrim.timer
