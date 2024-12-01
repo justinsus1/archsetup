@@ -62,8 +62,6 @@ installer_yay=(
     "zoom"
     "goverlay"
     "protonup-qt"
-    "linux-xanmod"
-    "linux-xanmod-headers"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
