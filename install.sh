@@ -104,6 +104,12 @@ source install/includes/kvm.sh
 source install/includes/copy.sh
 
 # ----------------------------------------------------- 
+# Gaming
+# ----------------------------------------------------- 
+
+source install/arch/gaming.sh
+
+# ----------------------------------------------------- 
 # Reboot
 # ----------------------------------------------------- 
 source install/includes/reboot.sh
