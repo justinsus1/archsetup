@@ -39,5 +39,4 @@ alias edit='nano ~/.bashrc'
 
 # steam shit
 
-export MANGOHUD=1
 export GAMEMODERUN=1
