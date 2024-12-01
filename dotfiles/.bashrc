@@ -41,3 +41,6 @@ alias edit='nano ~/.bashrc'
 
 export MANGOHUD=1
 export GAMEMODERUN=1
+
+export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/intel_icd.x86_64.json
+export VK_LAYER_PATH=/usr/share/vulkan/implicit_layer.d

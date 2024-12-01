@@ -50,6 +50,9 @@ installer_packages=(
     "vulkan-intel"
     "lib32-vulkan-intel"
     "openssh"
+    "cpupower"
+    "libva-intel-driver"
+    "intel-media-driver"
 )
 
 installer_yay=(
@@ -59,6 +62,8 @@ installer_yay=(
     "zoom"
     "goverlay"
     "protonup-qt"
+    "linux-xanmod"
+    "linux-xanmod-headers"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
