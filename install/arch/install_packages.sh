@@ -58,6 +58,7 @@ installer_yay=(
     "zen-browser"
     "zoom"
     "goverlay"
+    "protonup-qt"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
