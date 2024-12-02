@@ -56,7 +56,7 @@ source install/$installer/install_required.sh
 # Os-Prober
 # ----------------------------------------------------- 
 
-source install/include/os-prober.sh
+source install/includes/os-prober.sh
 
 # ----------------------------------------------------- 
 # Confirm Start

@@ -24,7 +24,6 @@ window#waybar {
     border-radius: 15px;
 }
 .modules-left {
-    padding: 0;
 }
 .modules-center {
     padding: 0 10px;

@@ -7,16 +7,19 @@
     },
 
 
-    "hyprland/workspaces": {
-        "disable-scroll": true,
+    "hyprland/workspaces" : {
+        "on-click": "activate",
+        "active-only": false,
         "all-outputs": true,
-        "warp-on-scroll": false,
-        "format": "{name}",
+        "format": "{}",
         "format-icons": {
-            "urgent": "",
-            "active": "",
-            "default": ""
-        }
+			"urgent": "",
+			"active": "",
+			"default": ""
+        },
+        "persistent-workspaces": {
+             "*": 3
+        }       
     },
     "idle_inhibitor": {
         "format": "{icon}",
@@ -25,21 +28,22 @@
             "deactivated": ""
         }
     },
-    "pipewire": {
+    "pulseaudio": {
         "format": "{icon}  {volume}%",
         "format-bluetooth": "{icon} {volume}%  {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": " {volume}%",
         "format-source-muted": "",
+        "tooltip-format": "{icon} {desc} // {volume}%",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": "",
+            "headset": "",
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+         "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
     },
@@ -49,7 +53,7 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-	"on-click": "wifi"
+	    "on-click": "alacritty -e nmtui"
 	 
     },
     "cpu": {
@@ -91,6 +95,13 @@
         "format": "{:%H:%M | %e %B} ",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
+    },
+
+    "hyprland/window": {  
+        "format": "<span  weight='bold' >{class}</span>",
+         "max-length": 120,
+         "icon": false,
+         "icon-size": 13
     }
 
 }
