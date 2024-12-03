@@ -5,7 +5,7 @@ sudo systemctl start cpupower.service
 
 # Set CPU governor to performance
 echo "Setting CPU governor to performance..."
-sudo cpupower frequency-set -g performance
+sudo cpupower frequency-set --governor performance
 
 # Verify CPU governor setting
 echo "Current CPU governor:"
