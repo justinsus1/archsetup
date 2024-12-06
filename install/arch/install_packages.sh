@@ -68,6 +68,7 @@ installer_yay=(
     "zoom"
     "goverlay"
     "protonup-qt"
+    "hyprshot"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
