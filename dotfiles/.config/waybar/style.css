@@ -6,8 +6,8 @@
 }
 
 window#waybar {
-    background: rgba(26, 27, 38, 0.75);
-    color: #c0caf5;
+    background: rgba(30, 30, 36, 0.75);
+    color: #ffffff;
     font-family: 
         SpaceMono Nerd Font,
         feather;
@@ -69,7 +69,7 @@ window#waybar {
 #power-profiles-daemon:hover,
 #language:hover,
 #mpd:hover {
-    background: rgba(26, 27, 38, 0.9);
+    background: rgba(27, 28, 37, 0.9);
 }
 
 
@@ -80,7 +80,7 @@ window#waybar {
     feather;
   font-weight: 900;
   font-size: 13pt;
-  color: #c0caf5;
+  color: #ffffff;
   border:none;
   border-radius: 15px;
 }
