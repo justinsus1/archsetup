@@ -7,7 +7,6 @@ installer_packages=(
     "waybar"
     "rofi-wayland"
     "alacritty"
-    "dunst"
     "thunar"
     "xdg-desktop-portal-hyprland"
     "qt5-wayland"
