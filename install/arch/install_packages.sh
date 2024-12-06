@@ -69,6 +69,7 @@ installer_yay=(
     "goverlay"
     "protonup-qt"
     "hyprshot"
+    "swaync"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
