@@ -114,6 +114,7 @@ source install/arch/gaming.sh
 # ----------------------------------------------------- 
 # Reboot
 # ----------------------------------------------------- 
-source install/includes/reboot.sh
+
+echo "please run nvim ~/.config/nvim/init.lua"
 
 #test fuck
