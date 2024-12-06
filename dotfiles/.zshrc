@@ -2,14 +2,16 @@ if [ -f ~/.bashrc_custom ] ;then
     source ~/.bashrc_custom
 fi
 
+eval "$(starship init zsh)"
+
 # -----------------------------------------------------
 # Fastfetch if in Hyprland
 # -----------------------------------------------------
-neofetch
+fastfetch
 
 alias ml4w-hyprland='~/.config/ml4w/apps/ML4W_Hyprland_Settings-x86_64.AppImage'
 alias la='ls -a'
-alias cls='clear; neofetclsch'
+alias cls='clear; fastfetch'
 alias wifi='nmtui'
 alias bluetooth='blueman-manager'
 alias audio='pavucontrol'

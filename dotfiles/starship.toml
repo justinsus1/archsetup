@@ -1,0 +1,10 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$line_break\
+$hostname\
+$character"""
+
+[fill]
+symbol = ' '
