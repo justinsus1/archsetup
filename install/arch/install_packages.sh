@@ -73,6 +73,7 @@ installer_yay=(
     "protonup-qt"
     "hyprshot"
     "swaync"
+    "hypridle"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
