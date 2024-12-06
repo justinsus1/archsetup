@@ -111,6 +111,8 @@ source install/includes/copy.sh
 
 source install/arch/gaming.sh
 
+fastfetch --gen-config
+
 # ----------------------------------------------------- 
 # Reboot
 # ----------------------------------------------------- 
