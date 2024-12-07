@@ -65,6 +65,7 @@ installer_packages=(
     "pipewire-alsa"
     "pipewire-pulse"
     "wireplumber"
+    "npm"
 )
 
 
