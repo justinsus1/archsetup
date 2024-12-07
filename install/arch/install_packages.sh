@@ -83,6 +83,7 @@ installer_yay=(
     "swaync"
     "hypridle"
     "starship"
+    "ast-grep"
 )
 
 # PLEASE NOTE: Add more packages at the end of the following command
