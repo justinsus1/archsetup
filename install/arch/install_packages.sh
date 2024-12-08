@@ -67,7 +67,6 @@ installer_packages=(
     "wireplumber"
     "npm"
     "gdb"
-    "ttf-jetbrains-mono-nerd-3.3.0-1"
 )
 
 
