@@ -66,6 +66,7 @@ installer_packages=(
     "pipewire-pulse"
     "wireplumber"
     "npm"
+    "gdb"
 )
 
 
