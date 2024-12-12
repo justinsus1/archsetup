@@ -63,6 +63,7 @@ installer_packages=(
     "npm"
     "gdb"
     "vim"
+    "flatpak"
 )
 
 installer_yay=(

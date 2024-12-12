@@ -75,6 +75,8 @@ source install/includes/preparation.sh
 # ----------------------------------------------------- 
 source install/$installer/install_packages.sh
 
+source install/$installer/flathub.sh
+
 # ----------------------------------------------------- 
 # Create Backup
 # ----------------------------------------------------- 
