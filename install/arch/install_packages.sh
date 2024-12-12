@@ -62,6 +62,7 @@ installer_packages=(
     "wireplumber"
     "npm"
     "gdb"
+    "vim"
 )
 
 installer_yay=(
