@@ -78,6 +78,11 @@ installer_yay=(
     "hypridle"
     "starship"
     "ast-grep"
+    "hyprpicker-git"
+    "dunst"
+    "nwg-look"
+    "wf-recorder"
+    "wlsunset"
 )
 
 _installPackages "${installer_packages[@]}";
