@@ -21,12 +21,5 @@ alias fuck='brightnessctl set 1%'
 alias edit='nano ~/.zshrc'
 alias check='sudo pacman -Syu; yay -Syu'
 alias shutdown='shutdown now'
-
-# steam shit
-
-export MANGOHUD=1
-export GAMEMODERUN=1
-
-export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/intel_icd.x86_64.json
-export VK_LAYER_PATH=/usr/share/vulkan/implicit_layer.d
+alias chat='ollama run deepseek-r1'
 

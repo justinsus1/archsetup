@@ -119,6 +119,6 @@ fastfetch --gen-config
 # Reboot
 # ----------------------------------------------------- 
 
-echo "please run nvim ~/.config/nvim/init.lua"
+source install/arch/ollama.sh
 
 #test fuck

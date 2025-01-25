@@ -6,7 +6,6 @@ installer_packages=(
     "hyprland"
     "waybar"
     "rofi-wayland"
-    "alacritty"
     "thunar"
     "xdg-desktop-portal-hyprland"
     "qt5-wayland"
@@ -64,12 +63,12 @@ installer_packages=(
     "gdb"
     "vim"
     "flatpak"
+    "ghostty"
 )
 
 installer_yay=(
     "wlogout" 
     "minecraft-launcher"
-    "zen-browser"
     "zoom"
     "goverlay"
     "protonup-qt"
