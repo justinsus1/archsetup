@@ -59,6 +59,7 @@ installer_packages=(
     "flatpak"
     "ghostty"
     "yazi"
+    "spotify-launcher"
 )
 
 installer_yay=(
