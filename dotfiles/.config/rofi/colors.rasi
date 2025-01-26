@@ -1,0 +1,9 @@
+
+* {
+    background:rgb(20, 28, 52);
+    background-alt:rgb(20, 28, 52);
+    foreground:rgb(0, 0, 0);
+    selected:rgb(93, 117, 189);
+    active:rgb(0, 0, 0);
+    urgent:rgb(0, 0, 0);
+}
