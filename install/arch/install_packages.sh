@@ -11,6 +11,7 @@ installer_packages=(
     "qt6-wayland"
     "hyprpaper"
     "hyprlock"
+    "thunar"
     "ttf-font-awesome"
     "ttf-fira-sans" 
     "ttf-fira-code" 
