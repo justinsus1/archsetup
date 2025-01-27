@@ -60,6 +60,7 @@ installer_packages=(
     "ghostty"
     "yazi"
     "spotify-launcher"
+    "wofi"
 )
 
 installer_yay=(
