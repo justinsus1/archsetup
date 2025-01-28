@@ -61,6 +61,7 @@ installer_packages=(
     "yazi"
     "spotify-launcher"
     "wofi"
+    "xdg-desktop-portal-gtk"
 )
 
 installer_yay=(
@@ -92,6 +93,8 @@ installer_yay=(
     "kvantum"
     "kvantum-theme-catppuccin-git"
     "gst-plugin-pipewire"
+    "aylurs-gtk-shell-git"
+    "libastal-meta"
 )
 
 _installPackages "${installer_packages[@]}";
