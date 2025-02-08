@@ -62,6 +62,7 @@ installer_packages=(
     "spotify-launcher"
     "wofi"
     "xdg-desktop-portal-gtk"
+    "xdg-desktop-portal-wlr"
 )
 
 installer_yay=(
