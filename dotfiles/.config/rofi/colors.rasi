@@ -1,7 +1,7 @@
 * {
-    background: rgb(80, 170, 80);  /* Rich, vibrant green */
-    background-alt: rgb(70, 160, 70); /* Slightly darker green for depth */
-    foreground: rgb(240, 240, 240); /* Light gray for strong readability */
+    background: rgb(49, 70, 49);  /* Rich, vibrant green */
+    background-alt: rgb(12, 23, 49); /* Slightly darker green for depth */
+    foreground: rgb(100, 100, 100); /* Light gray for strong readability */
     selected: rgb(120, 220, 120); /* Bright green for selection */
     active: rgba(100, 200, 100, 0.7); /* Transparent green for active elements */
     urgent: rgba(130, 210, 130, 0.7); /* Softer green for urgent states */

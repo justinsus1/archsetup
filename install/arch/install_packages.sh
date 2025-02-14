@@ -63,6 +63,8 @@ installer_packages=(
     "wofi"
     "xdg-desktop-portal-gtk"
     "xdg-desktop-portal-wlr"
+    "obs-studio"
+    "gnome-keyring"
 )
 
 installer_yay=(
